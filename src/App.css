@@ -1,0 +1,79 @@
+*{
+  margin: 2px;
+  padding: 2px;
+}
+html{
+  font-size: 16px;
+  font-family: gilroy-extra-bold;
+}
+body{
+  background-color: whitesmoke;
+  
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 0.7fr 4fr;
+  margin: 100px 20px;
+}
+
+.mainsection{
+  width: 90%;
+  padding: 0px 0px 0 30px;
+}
+
+.mainsection h1{
+  padding-bottom: 20px;
+  border-bottom:1px solid ;
+}
+
+.box{
+  border: 1px solid;
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color: white;
+  margin: 0 10px;
+}
+
+.cash{
+  margin: 20px 0;
+}
+
+.sidesection{
+  height: 70vh;
+  border-right: 1px solid;
+  font-size: 1.4rem;
+}
+
+li{
+  list-style:none;
+}
+
+table{
+  padding-top: 40px;
+  width: 90%;
+  font-size: 1.4rem;
+}
+
+.icon{
+  float: right;
+}
+icon:focus {
+  color: rgb(119,21,114);
+}
+
+table strong{
+  margin-left: 10px;
+  display: inline-block;
+  height: 1px;
+  min-width: 200px;
+
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+}
+a:focus {
+  color: rgb(119,21,114);
+}
